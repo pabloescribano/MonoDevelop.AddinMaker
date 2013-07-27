@@ -18,11 +18,14 @@
 	<Runtime>
 		<Import file = "Templates/Properties/Manifest.addin.xml" />
 		<Import file = "Templates/EmptyAddinProject.xpt.xml" />
+		<Import file = "Templates/EmptyAddinProjectWithUnitTesting.xpt.xml" />
 	</Runtime>
 
 	<Extension path = "/MonoDevelop/Ide/ProjectTemplates">
 		<ProjectTemplate id   = "EmptyAddinProject"
 		                 file = "Templates/EmptyAddinProject.xpt.xml" />
+		<ProjectTemplate id   = "EmptyAddinProjectWithUnitTesting"
+						 file = "EmptyAddinProjectWithUnitTesting.xpt.xml"/>                  
 	</Extension>
 
 	<Extension path = "/MonoDevelop/ProjectModel/MSBuildItemTypes">
